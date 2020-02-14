@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "featured_image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "event_date": {
+      "type": "datetime"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}
