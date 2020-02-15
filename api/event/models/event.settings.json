@@ -27,7 +27,16 @@
     "event_date": {
       "type": "datetime"
     },
-    "Subtitle": {
+    "subtitle": {
+      "type": "string"
+    },
+    "ticket_price": {
+      "type": "decimal"
+    },
+    "door_price": {
+      "type": "decimal"
+    },
+    "tickets_url": {
       "type": "string"
     }
   }
